@@ -1,4 +1,4 @@
-import photoGrid from "./images/photo-grid.png";
+import photoGrid from "../images/photo-grid.png";
 
 function HeroSection() {
   return (

@@ -1,4 +1,4 @@
-import airbnbLogo from './images/airbnb-logo.png'
+import airbnbLogo from '../images/airbnb-logo.png'
 
 function TheHeader() {
     return (

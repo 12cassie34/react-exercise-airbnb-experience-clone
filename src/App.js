@@ -1,6 +1,6 @@
 import './App.css'
-import TheHeader from './header'
-import HeroSection from './HeroSection'
+import TheHeader from './components/Header'
+import HeroSection from './components/HeroSection'
 
 function App() {
   return (
