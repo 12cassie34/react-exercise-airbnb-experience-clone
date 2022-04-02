@@ -28,8 +28,8 @@ function TheCard() {
             Life lessons with Katie Zaferes
           </div>
           <div className="card__info__section__fee">
-            <div className="card__info__section__fee__range">From $136 /</div>
-            <div className="card__info__section__fee__per">person</div>
+            <div className="card__info__section__fee__range">From $136</div>
+            <div className="card__info__section__fee__per">&nbsp;/&nbsp;person</div>
           </div>
         </div>
       </div>

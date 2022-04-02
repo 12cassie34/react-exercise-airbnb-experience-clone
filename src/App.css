@@ -49,6 +49,7 @@
 }
 
 .card {
+  margin-bottom: 30px;
   width: 176px;
 }
 
@@ -92,5 +93,10 @@
   text-decoration: none;
 }
 
-.card__info__section__lesson {
+.card__info__section__fee {
+  display: flex;
+}
+
+.card__info__section__fee__range {
+  font-weight: 600;
 }
