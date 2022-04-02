@@ -1,6 +1,7 @@
 import './App.css'
 import TheHeader from './components/Header'
 import HeroSection from './components/HeroSection'
+import TheCard from './components/Card';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="content__container">
         <HeroSection />
       </div>
+      <TheCard />
     </div>
   );
 }

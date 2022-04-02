@@ -42,3 +42,55 @@
   font-weight: 300;
   font-size: 16px;
 }
+
+.card-container {
+  margin-top: 50px;
+  margin-left: 37px;
+}
+
+.card {
+  width: 176px;
+}
+
+.card__img__section {
+  position: relative;
+}
+
+.card__img__section_condition {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 5px 6px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.card__info__section {
+  font-size: 12px;
+  color: #222222;
+}
+
+.card__info__section__ranking {
+  display: flex;
+  font-weight: 300;
+}
+
+.card__info__section__ranking__img {
+  margin-right: 2px;
+  width: 14px;
+  height: 14px;
+}
+
+.card__info__section__ranking__num {
+  margin-right: 2px;
+}
+
+.card__info__section__ranking__comments, .card__info__section__ranking__dots, .card__info__section__ranking__country {
+  margin-right: 2px;
+  color: #918E9B;
+  text-decoration: none;
+}
+
+.card__info__section__lesson {
+}
