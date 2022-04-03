@@ -3,6 +3,8 @@ import TheHeader from './components/Header'
 import HeroSection from './components/HeroSection'
 import TheCard from './components/Card';
 
+import katieZaferes from "./images/katie-zaferes.png";
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +12,15 @@ function App() {
       <div className="content__container">
         <HeroSection />
       </div>
-      <TheCard />
+      <TheCard 
+        img={katieZaferes}
+        name="Katie Zaferes"
+        rating="5.0"
+        reviewCount="6"
+        country="USA"
+        title="Life Lessons with Katie Zaferes"
+        price="136"
+      />
     </div>
   );
 }

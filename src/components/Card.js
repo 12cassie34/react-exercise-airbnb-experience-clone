@@ -1,34 +1,34 @@
 import katieZaferes from "../images/katie-zaferes.png";
 import theStar from "../images/star.png";
 
-function TheCard() {
+function TheCard(props) {
   return (
     <div className="card-container">
       <div className="card">
         <div className="card__img__section">
           <div className="card__img__section_condition">sold out</div>
-          <img src={katieZaferes} className="card__img__section__img" />
+          <img src={props.img} className="card__img__section__img" alt={props.name} />
         </div>
         <div className="card__info__section">
           <div className="card__info__section__ranking">
-            <img src={theStar} className="card__info__section__ranking__img" />
-            <div className="card__info__section__ranking__num">5.0</div>
+            <img src={theStar} className="card__info__section__ranking__img" alt="ranking-star" />
+            <div className="card__info__section__ranking__num">{props.rating}</div>
             <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="card__info__section__ranking__comments"
             >
-              (6)
+              ({props.reviewCount})
             </a>
             <div className="card__info__section__ranking__dots">●</div>
-            <div className="card__info__section__ranking__country">USA</div>
+            <div className="card__info__section__ranking__country">{props.country}</div>
           </div>
           <div className="card__info__section__lesson">
-            Life lessons with Katie Zaferes
+            {props.title}
           </div>
           <div className="card__info__section__fee">
-            <div className="card__info__section__fee__range">From $136</div>
+            <div className="card__info__section__fee__range">From ${props.price}</div>
             <div className="card__info__section__fee__per">&nbsp;/&nbsp;person</div>
           </div>
         </div>
