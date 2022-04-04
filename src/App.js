@@ -7,12 +7,8 @@ import courseData from "./data"
 
 function App() {
   const cards = courseData.map(course => 
-    <TheCard coverImg={course.coverImg}
-             rating={course.stats.rating}
-             reviewCount={course.stats.reviewCount} 
-             location={course.location} 
-             title={course.title} 
-             price={course.price} />
+    <TheCard key={course.id}
+             item={course} />
   )
   return (
     <div className="App">
