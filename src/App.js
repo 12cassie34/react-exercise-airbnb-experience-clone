@@ -20,16 +20,9 @@ function App() {
       <div className="content__container">
         <HeroSection />
       </div>
-      {cards}
-      {/* <TheCard 
-        img={katieZaferes}
-        name="Katie Zaferes"
-        rating="5.0"
-        reviewCount="6"
-        country="USA"
-        title="Life Lessons with Katie Zaferes"
-        price="136"
-      /> */}
+      <section className="card-section">
+        {cards}
+      </section>
     </div>
   );
 }

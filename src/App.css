@@ -43,6 +43,11 @@
   font-size: 16px;
 }
 
+.card-section {
+  display: flex;
+  overflow-y: scroll;
+}
+
 .card-container {
   margin-top: 50px;
   margin-left: 37px;
