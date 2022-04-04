@@ -3,16 +3,25 @@ import TheHeader from './components/Header'
 import HeroSection from './components/HeroSection'
 import TheCard from './components/Card';
 
-import katieZaferes from "./images/katie-zaferes.png";
+import courseData from "./data"
 
 function App() {
+  const cards = courseData.map(course => 
+    <TheCard coverImg={course.coverImg}
+             rating={course.stats.rating}
+             reviewCount={course.stats.reviewCount} 
+             location={course.location} 
+             title={course.title} 
+             price={course.price} />
+  )
   return (
     <div className="App">
       <TheHeader />
       <div className="content__container">
         <HeroSection />
       </div>
-      <TheCard 
+      {cards}
+      {/* <TheCard 
         img={katieZaferes}
         name="Katie Zaferes"
         rating="5.0"
@@ -20,7 +29,7 @@ function App() {
         country="USA"
         title="Life Lessons with Katie Zaferes"
         price="136"
-      />
+      /> */}
     </div>
   );
 }

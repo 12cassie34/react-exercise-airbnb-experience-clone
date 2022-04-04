@@ -1,4 +1,3 @@
-import katieZaferes from "../images/katie-zaferes.png";
 import theStar from "../images/star.png";
 
 function TheCard(props) {
@@ -7,7 +6,7 @@ function TheCard(props) {
       <div className="card">
         <div className="card__img__section">
           <div className="card__img__section_condition">sold out</div>
-          <img src={props.img} className="card__img__section__img" alt={props.name} />
+          <img src={props.coverImg} className="card__img__section__img" alt={props.title} />
         </div>
         <div className="card__info__section">
           <div className="card__info__section__ranking">
@@ -22,7 +21,7 @@ function TheCard(props) {
               ({props.reviewCount})
             </a>
             <div className="card__info__section__ranking__dots">●</div>
-            <div className="card__info__section__ranking__country">{props.country}</div>
+            <div className="card__info__section__ranking__country">{props.location}</div>
           </div>
           <div className="card__info__section__lesson">
             {props.title}
