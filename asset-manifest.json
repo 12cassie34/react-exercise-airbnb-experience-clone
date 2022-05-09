@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-exercise-airbnb-experience-clone/static/css/main.691ffe62.css",
+    "main.js": "/react-exercise-airbnb-experience-clone/static/js/main.bed5b233.js",
+    "static/js/787.3cbcfc7e.chunk.js": "/react-exercise-airbnb-experience-clone/static/js/787.3cbcfc7e.chunk.js",
+    "static/media/photo-grid.png": "/react-exercise-airbnb-experience-clone/static/media/photo-grid.072626b8e8ff69932f03.png",
+    "static/media/katie-zaferes.png": "/react-exercise-airbnb-experience-clone/static/media/katie-zaferes.879d99ca0c7b0c8d4733.png",
+    "index.html": "/react-exercise-airbnb-experience-clone/index.html",
+    "main.691ffe62.css.map": "/react-exercise-airbnb-experience-clone/static/css/main.691ffe62.css.map",
+    "main.bed5b233.js.map": "/react-exercise-airbnb-experience-clone/static/js/main.bed5b233.js.map",
+    "787.3cbcfc7e.chunk.js.map": "/react-exercise-airbnb-experience-clone/static/js/787.3cbcfc7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.691ffe62.css",
+    "static/js/main.bed5b233.js"
+  ]
+}
