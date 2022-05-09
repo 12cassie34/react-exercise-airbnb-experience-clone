@@ -17,7 +17,7 @@ I learned how to use `Array.maps()` to loop through the data array and pass each
 
 ### Links
 
-- Solution URL: [https://github.com/12cassie34/react-exercise-airbnb-experience-clone)
+- Solution URL: (https://github.com/12cassie34/react-exercise-airbnb-experience-clone)
 - Live Site URL: [Live Demo](https://12cassie34.github.io/react-exercise-airbnb-experience-clone/)
 - The Layout Design URL: [Airbnb-Experiences](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=2%3A2)
 
