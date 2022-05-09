@@ -11,6 +11,7 @@
 - [Author](#author)
 
 ## Overview
+The exercise is from the course - Learn React for free created by Bob Ziroll from [Scriba](https://scrimba.com/).
 
 ### What I learned
 I learned how to use `Array.maps()` to loop through the data array and pass each data in the component as `props` to render them on the page.
