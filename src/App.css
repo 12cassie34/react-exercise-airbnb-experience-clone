@@ -45,11 +45,17 @@
   font-size: 16px;
 }
 
+.card-section {
+  display: flex;
+  overflow-y: scroll;
+}
+
 .card-container {
   margin-top: 50px;
 }
 
 .card {
+  margin-bottom: 30px;
   width: 176px;
 }
 
@@ -98,5 +104,5 @@
 }
 
 .card__info__section__fee__range {
-  font-weight: 700;
+  font-weight: 600;
 }

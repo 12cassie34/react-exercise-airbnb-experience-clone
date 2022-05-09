@@ -3,7 +3,13 @@ import TheHeader from './components/Header'
 import HeroSection from './components/HeroSection'
 import TheCard from './components/Card';
 
+import courseData from "./data"
+
 function App() {
+  const cards = courseData.map(course => 
+    <TheCard key={course.id}
+             item={course} />
+  )
   return (
     <div className="App">
       <TheHeader />
@@ -11,7 +17,9 @@ function App() {
         <HeroSection />
         <TheCard />
       </div>
-      
+      <section className="card-section">
+        {cards}
+      </section>
     </div>
   );
 }
