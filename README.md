@@ -1,4 +1,4 @@
-[Here is the Github pages](https://12cassie34.github.io/react-name-card-exercise/) 
+[Here is the Github pages](https://github.com/12cassie34/react-exercise-airbnb-experience-clone) 
 
 ## Table of contents
 
@@ -16,8 +16,7 @@
 I learned how to use `Array.maps()` to loop through the data array and pass each data in the component as `props` to render them on the page.
 
 ### Links
-
-- Solution URL: (https://github.com/12cassie34/react-exercise-airbnb-experience-clone)
+- Solution URL: [react-exercise-airbnb-experience-clone](https://github.com/12cassie34/react-exercise-airbnb-experience-clone)
 - Live Site URL: [Live Demo](https://12cassie34.github.io/react-exercise-airbnb-experience-clone/)
 - The Layout Design URL: [Airbnb-Experiences](https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=2%3A2)
 
