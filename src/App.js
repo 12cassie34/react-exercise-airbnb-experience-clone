@@ -9,8 +9,9 @@ function App() {
       <TheHeader />
       <div className="content__container">
         <HeroSection />
+        <TheCard />
       </div>
-      <TheCard />
+      
     </div>
   );
 }

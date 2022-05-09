@@ -1,6 +1,8 @@
 .content__container {
+  margin: 0 auto 50px auto;
   padding-left: 36px;
   padding-right: 36px;
+  max-width: 550px;
 }
 
 .header {
@@ -45,7 +47,6 @@
 
 .card-container {
   margin-top: 50px;
-  margin-left: 37px;
 }
 
 .card {
@@ -92,5 +93,10 @@
   text-decoration: none;
 }
 
-.card__info__section__lesson {
+.card__info__section__fee {
+  display: flex;
+}
+
+.card__info__section__fee__range {
+  font-weight: 700;
 }
