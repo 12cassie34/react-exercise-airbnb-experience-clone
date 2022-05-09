@@ -15,7 +15,6 @@ function App() {
       <TheHeader />
       <div className="content__container">
         <HeroSection />
-        <TheCard />
       </div>
       <section className="card-section">
         {cards}
