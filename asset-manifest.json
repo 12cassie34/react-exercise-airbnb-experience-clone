@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-exercise-airbnb-experience-clone/static/css/main.9aebe00d.css",
-    "main.js": "/react-exercise-airbnb-experience-clone/static/js/main.516252d6.js",
+    "main.css": "/react-exercise-airbnb-experience-clone/static/css/main.46a6eb01.css",
+    "main.js": "/react-exercise-airbnb-experience-clone/static/js/main.70130844.js",
     "static/js/787.3cbcfc7e.chunk.js": "/react-exercise-airbnb-experience-clone/static/js/787.3cbcfc7e.chunk.js",
     "static/media/photo-grid.png": "/react-exercise-airbnb-experience-clone/static/media/photo-grid.072626b8e8ff69932f03.png",
     "static/media/katie-zaferes.png": "/react-exercise-airbnb-experience-clone/static/media/katie-zaferes.879d99ca0c7b0c8d4733.png",
     "static/media/wedding-photography.png": "/react-exercise-airbnb-experience-clone/static/media/wedding-photography.9978c5b012896f7188c1.png",
     "static/media/mountain-bike.png": "/react-exercise-airbnb-experience-clone/static/media/mountain-bike.057326c626e54dd53ad0.png",
     "index.html": "/react-exercise-airbnb-experience-clone/index.html",
-    "main.9aebe00d.css.map": "/react-exercise-airbnb-experience-clone/static/css/main.9aebe00d.css.map",
-    "main.516252d6.js.map": "/react-exercise-airbnb-experience-clone/static/js/main.516252d6.js.map",
+    "main.46a6eb01.css.map": "/react-exercise-airbnb-experience-clone/static/css/main.46a6eb01.css.map",
+    "main.70130844.js.map": "/react-exercise-airbnb-experience-clone/static/js/main.70130844.js.map",
     "787.3cbcfc7e.chunk.js.map": "/react-exercise-airbnb-experience-clone/static/js/787.3cbcfc7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aebe00d.css",
-    "static/js/main.516252d6.js"
+    "static/css/main.46a6eb01.css",
+    "static/js/main.70130844.js"
   ]
 }
